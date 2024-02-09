@@ -3,8 +3,7 @@ try:
         a,b = map(int,input().split())
         arr = []
         for i in str(a+b):
-            x = int(i)
-            if x == 4:
+            if (x := int(i)) == 4:
                 arr.append(4)
             elif x == 1:
                 arr.append(2)

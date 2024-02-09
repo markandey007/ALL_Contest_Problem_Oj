@@ -2,8 +2,7 @@
 n,k = map(int,input().split()) 
 c = [0]*n
 for i in range(0,k):
-    s = input()
-    if (s == "CLOSEALL"):
+    if ((s := input()) == "CLOSEALL"):
         for j in range(0,n):
             c[j] = 0
     

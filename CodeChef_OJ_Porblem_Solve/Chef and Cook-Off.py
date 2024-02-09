@@ -1,8 +1,7 @@
 try:
     for _  in range(int(input())):
         a, b, c, d, e = map(int, input().split())
-        res = a+b+c+d+e
-        if res == 0:
+        if (res := a+b+c+d+e) == 0:
             print("Beginner")
         elif res == 1:
             print("Junior Developer")

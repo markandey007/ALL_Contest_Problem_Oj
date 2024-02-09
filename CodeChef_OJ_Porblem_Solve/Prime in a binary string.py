@@ -1,8 +1,7 @@
 try:
     for _ in range(int(input())):
         s = input()
-        n = len(s)
-        if n == 1:
+        if (n := len(s)) == 1:
             print("NO")
             continue
         c = 0

@@ -1,7 +1,6 @@
 try:
     while True:
-        n = int(input())
-        if n == 0:
+        if (n := int(input())) == 0:
             break
         arr = list(map(int, input().split()))
         res = [0] * len(arr)
