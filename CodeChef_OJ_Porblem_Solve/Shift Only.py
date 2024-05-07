@@ -8,6 +8,5 @@ while True:
         arr[i] /= 2
     else:
         c += 1
-        continue
     break
 print(c)
